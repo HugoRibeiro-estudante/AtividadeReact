@@ -1,0 +1,64 @@
+.centralizar{
+
+    text-align: center;
+}
+
+.containerAvaliacoes{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.avaliacao{
+
+    margin-top: 80px;
+    width: 300px;
+    background-color: lightblue;
+    padding-top: 60px;
+    box-shadow: 1px 1px 10px darkblue;
+     
+}
+.avaliacao p{
+
+    text-align: center;
+}
+
+.nome{
+    font-weight: bold;
+    color: darkblue;
+}
+
+.ava1{
+
+    font-weight: bold;
+}
+
+
+.avaliacao > div > img {
+
+    border-radius: 50%;
+    margin-top: -120px;
+    position: absolute;
+    border: 3px solid darkblue;
+    width: 120px;
+}
+
+.avaliacao > div{
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
